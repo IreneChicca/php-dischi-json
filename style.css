@@ -1,0 +1,26 @@
+header {
+  background-color: #06131f;
+  height: 100px;
+}
+
+main {
+  background-color: #1d2d3c;
+}
+
+img {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #112030;
+  color: #fff;
+  text-align: center;
+}
+
+.card h5 {
+  padding-top: 20px;
+}
