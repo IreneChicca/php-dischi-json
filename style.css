@@ -19,6 +19,7 @@ img {
   background-color: #112030;
   color: #fff;
   text-align: center;
+  cursor: pointer;
 }
 
 .card h5 {

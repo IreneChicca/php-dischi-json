@@ -46,9 +46,22 @@ $dischi = [
 ];
 
 
-header('Content-Type: application/json');
-echo json_encode($dischi);
 
+$response = [];
 
+ 
+
+if (isset($_GET['discIndex'])){
+    
+    $response = $dischi[0];
+}
+
+else {
+    $response = $dischi;
+    
+}
+ 
+    header('Content-Type: application/json');
+    echo json_encode($response);
 
 ?>

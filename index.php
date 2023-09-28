@@ -19,7 +19,8 @@
 
             <div class="card-box container p-5 d-flex justify-content-evenly flex-wrap">
 
-                <div class="card col-3 p-3 m-2" v-for="disc in discs">
+                <div class="card col-3 p-3 m-2" v-for="(disc,index) in discs" v-on:click="showDisc(index)">
+
                     <img :src=disc.poster alt="">
                     <h5>{{ disc.title }}</h5>
                     <p>{{ disc.author }}</p>
